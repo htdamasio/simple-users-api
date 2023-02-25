@@ -13,7 +13,7 @@ Added the identification of query parameters and path parameters
 ## Installation & Set Up
 1. Clone the project
 ```sh
-git clone git@github.com:htdamasio/social-feed.git
+git clone git@github.com:htdamasio/simple-users-api.git
 ```
 
 2. Install dependencies
