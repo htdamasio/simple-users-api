@@ -31,15 +31,19 @@ npm run dev
 ### Create User
 Use a POST method on your API client for the route `http://localhost:3333/users` sending a the information in the request body 
 ```json
-"name": "Jhon Doe",
-"email": "jhondoe@email.com"
+{
+  "name": "Jhon Doe",
+  "email": "jhondoe@email.com"
+}
 ```
 
 ### Update User
 Use a PUT method on your API client for the route `http://localhost:3333/users/:id` sending the id through route params and other information in the request body 
 ```json
-"name": "Jhon Doe Updated",
-"email": "jhondoeupdated@email.com"
+{
+  "name": "Jhon Doe Updated",
+  "email": "jhondoeupdated@email.com"
+}
 ```
 
 ### Delete User
