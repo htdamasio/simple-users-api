@@ -50,4 +50,4 @@ Use a PUT method on your API client for the route `http://localhost:3333/users/:
 Use a DELETE method on your API client for the route `http://localhost:3333/users/:id` sending the id through route params
 
 ### List Users
-Use a DELETE method on your API client for the route `http://localhost:3333/users`. You can use query parameters to filter the results, the one avaiable is `search`, so it will look something like `http://localhost:3333/users?search=jhon`
+Use a GET method on your API client for the route `http://localhost:3333/users`. You can use query parameters to filter the results, the one avaiable is `search`, so it will look something like `http://localhost:3333/users?search=jhon`
